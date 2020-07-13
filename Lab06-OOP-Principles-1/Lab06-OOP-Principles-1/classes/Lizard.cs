@@ -9,16 +9,18 @@ namespace Lab06_OOP_Principles_1.classes
         public bool IsSlimy { get; set; }
         public bool IsSketchy { get; set; }
 
-        public void BeingSneaky()
+        /*public string BeingSneaky()
         {
             if (IsSketchy)
             {
                 Console.WriteLine("Almost tripped a human today!");
+                return "Almost tripped a human today!";
             }
             else
             {
                 Console.WriteLine("I knocked over a human today!");
+                return "I knocked over a human today!";
             }
-        }
+        }*/
     }
 }

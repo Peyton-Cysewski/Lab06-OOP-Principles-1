@@ -8,12 +8,18 @@ namespace Lab06_OOP_Principles_1.classes
     {
         public bool CanClimb { get; set; }
 
-        public void Lonely()
+        /*public string Lonely()
         {
             if (!CanClimb)
             {
                 Console.WriteLine("I am a sad, lonely bear stuck in Antarctica.");
+                return "I am a sad, lonely bear stuck in Antarctica.";
             }
-        }
+            else
+            {
+                Console.WriteLine("I\'m an awesome bear that isn\'t freezing cold!");
+                return "I\'m an awesome bear that isn\'t freezing cold!";
+            }
+        }*/
     }
 }

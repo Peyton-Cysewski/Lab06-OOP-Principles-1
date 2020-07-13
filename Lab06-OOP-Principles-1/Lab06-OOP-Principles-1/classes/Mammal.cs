@@ -6,10 +6,11 @@ namespace Lab06_OOP_Principles_1.classes
 {
     public abstract class Mammal : Animal
     {
-        public bool HasParties { get; set; }
-        public bool HumansLikeUs { get; set; }
-        public bool IsTamable { get; set; }
+        public bool HasParties { get; set; } = true;
+        public bool HumansLikeUs { get; set; } = true;
+        public bool IsTamable { get; set; } = true;
 
+    
         public int LikeableScale()
         {
             if (HumansLikeUs)

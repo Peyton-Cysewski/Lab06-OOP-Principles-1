@@ -44,12 +44,9 @@ Then select and open ```Lab06-OOP-Principles-1.sln```
 
 ### Visuals
 
-#### Application Start
-![Start](.assets/sdafasdfsdaf)
+
 #### Using the Application
-![Middle](.assets/sdafasdfsadf)
-#### Application End
-![Output](.assets/ghdfgafsg)
+![Middle](.assets/console.png)
 
 ---
 
