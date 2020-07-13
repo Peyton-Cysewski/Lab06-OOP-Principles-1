@@ -46,7 +46,7 @@ Then select and open ```Lab06-OOP-Principles-1.sln```
 
 
 #### Using the Application
-![Middle](.assets/console.png)
+![Middle](./assets/console.png)
 
 ---
 
