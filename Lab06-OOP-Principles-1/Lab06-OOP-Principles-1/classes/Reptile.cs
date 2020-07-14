@@ -9,20 +9,10 @@ namespace Lab06_OOP_Principles_1.classes
         public bool IsALoner { get; set; } = true;
         public bool LaysEggs { get; set; } = false;
         public bool WillEatPeople { get; set; } = true;
+        public override int Age { get; set; } = 0;
 
-        public string LayingEggs()
-        {
-            if (LaysEggs)
-            {
-                Console.WriteLine("I just laid an egg, but it wasn\'t golden.");
-                return "I just laid an egg, but it wasn\'t golden.";
-            }
-            else
-            {
-                Console.WriteLine("Whoops, that\'s not an egg...");
-                return "Whoops, that\'s not an egg...";
-            }
-        }
+
+        abstract public string LayingEggs();
 
         public string EatingHumans()
         {

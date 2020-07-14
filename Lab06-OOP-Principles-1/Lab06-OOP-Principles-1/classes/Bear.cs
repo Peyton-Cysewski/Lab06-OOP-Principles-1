@@ -9,6 +9,21 @@ namespace Lab06_OOP_Principles_1.classes
         public string FurColor { get; set; }
         public string HbernationLocation { get; set; }
         public string CartoonNickname { get; set; }
+        override public bool Carnivore { get; set; } = false;
+        override public bool Herbivore { get; set; } = false;
+        override public bool Omnivore { get; set; } = true;
+
+        public override string Eating()
+        {
+            Console.WriteLine("*Indistinct Screaming*");
+            return "*Indistinct Screaming*";
+        }
+
+        public override string SayHi()
+        {
+            Console.WriteLine("Roar");
+            return "Roar!";
+        }
 
         /*public string LivingAtYellowstone()
         {

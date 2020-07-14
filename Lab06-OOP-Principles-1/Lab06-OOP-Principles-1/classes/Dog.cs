@@ -9,7 +9,15 @@ namespace Lab06_OOP_Principles_1.classes
         public bool IsLoveable { get; set; }
         public bool WillFetch { get; set; }
         public bool HatesHoses { get; set; }
+        override public bool Carnivore { get; set; } = false;
+        override public bool Herbivore { get; set; } = false;
+        override public bool Omnivore { get; set; } = true;
 
+        public override string SayHi()
+        {
+            Console.WriteLine("Ruff Ruff!");
+            return "Ruff Ruff!";
+        }
         /*public string PeeingOnTree()
         {
             if (IsLoveable)

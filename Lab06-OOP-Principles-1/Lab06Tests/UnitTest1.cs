@@ -72,7 +72,7 @@ namespace Lab06Tests
             Bear bearo = new Bear();
             // Act
             string actual = bearo.Eating();
-            string expected = "Nom nom nom...";
+            string expected = "*Indistinct Screaming*";
             // Assert
             Assert.Equal(expected, actual);
         }

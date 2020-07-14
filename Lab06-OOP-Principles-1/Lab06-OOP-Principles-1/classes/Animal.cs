@@ -6,27 +6,19 @@ namespace Lab06_OOP_Principles_1.classes
 {
     public abstract class Animal
     {
-        public string Gender { get; set; }
-        public bool Carnivore { get; set; }
-        public bool Herbivore { get; set; }
-        public bool Omnivore { get; set; }
-        public int Age { get; set; } = 0;
+        virtual public string Gender { get; set; } = "male";
+        abstract public bool Carnivore { get; set; }
+        abstract public bool Herbivore { get; set; }
+        abstract public bool Omnivore { get; set; }
+        virtual public int Age { get; set; } = 0;
 
-        public string Eating()
+        virtual public string Eating()
         {
-            if (Carnivore)
-            {
-                Console.WriteLine("*Indistinct screams*");
-                return "*Indistinct screams*";
-            }
-            else
-            {
-                Console.WriteLine("Nom nom nom...");
-                return "Nom nom nom...";
-            }
+            Console.WriteLine("Nom nom nom...");
+            return "Nom nom nom...";
         }
 
-        public string Sleeping()
+        virtual public string Sleeping()
         {
             Console.WriteLine("Zzzzzzzzz...");
             return "Zzzzzzzzz...";
