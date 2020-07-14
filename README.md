@@ -57,7 +57,7 @@ Then select and open ```Lab06-OOP-Principles-1.sln```
 ---
 
 ### Change Log
-1.1: *Initial release* - 13 July 2020
-1.2: *Added Abstract and Virtual behaviors* - 14 July 2020
+- 1.1: *Initial release* - 13 July 2020
+- 1.2: *Added Abstract and Virtual behaviors* - 14 July 2020
 
 ------------------------------
