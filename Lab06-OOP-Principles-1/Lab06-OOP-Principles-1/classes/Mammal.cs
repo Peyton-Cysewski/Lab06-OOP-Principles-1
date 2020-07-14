@@ -34,5 +34,7 @@ namespace Lab06_OOP_Principles_1.classes
                 return -900000;
             }
         }
+
+        public abstract string SayHi();
     }
 }

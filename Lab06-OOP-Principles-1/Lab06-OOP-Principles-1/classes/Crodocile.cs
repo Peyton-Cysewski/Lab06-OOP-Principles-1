@@ -8,6 +8,23 @@ namespace Lab06_OOP_Principles_1.classes
     {
         public bool HasScales { get; set; }
         public bool IsScary { get; set; }
+        override public bool Carnivore { get; set; } = true;
+        override public bool Herbivore { get; set; } = false;
+        override public bool Omnivore { get; set; } = false;
+
+        public override string LayingEggs()
+        {
+            if (LaysEggs)
+            {
+                Console.WriteLine("I just laid an egg, but it wasn\'t golden.");
+                return "I just laid an egg, but it wasn\'t golden.";
+            }
+            else
+            {
+                Console.WriteLine("Whoops, that\'s not an egg...");
+                return "Whoops, that\'s not an egg...";
+            }
+        }
 
         /*public string BeingScary()
         {
