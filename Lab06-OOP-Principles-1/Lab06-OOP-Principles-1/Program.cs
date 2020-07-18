@@ -10,6 +10,9 @@ namespace Lab06_OOP_Principles_1
            Examples();
         }
 
+        /// <summary>
+        /// Demonstrates OOP Principles in the program using the console.
+        /// </summary>
         public static void Examples()
         {
             PolarBear beary = new PolarBear();

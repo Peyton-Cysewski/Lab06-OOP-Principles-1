@@ -13,6 +13,10 @@ namespace Lab06_OOP_Principles_1.classes
         override public bool Herbivore { get; set; } = false;
         override public bool Omnivore { get; set; } = true;
 
+        /// <summary>
+        /// Writes a new distinct string for the Lizard class based on the inherited LaysEggs property
+        /// </summary>
+        /// <returns>Distinct Lizard string</returns>
         public override string LayingEggs()
         {
             if (LaysEggs)
@@ -26,19 +30,5 @@ namespace Lab06_OOP_Principles_1.classes
                 return "Whoops, that\'s not an egg...";
             }
         }
-
-        /*public string BeingSneaky()
-        {
-            if (IsSketchy)
-            {
-                Console.WriteLine("Almost tripped a human today!");
-                return "Almost tripped a human today!";
-            }
-            else
-            {
-                Console.WriteLine("I knocked over a human today!");
-                return "I knocked over a human today!";
-            }
-        }*/
     }
 }
