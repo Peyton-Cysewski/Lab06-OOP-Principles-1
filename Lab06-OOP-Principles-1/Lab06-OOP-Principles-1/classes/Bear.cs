@@ -13,30 +13,24 @@ namespace Lab06_OOP_Principles_1.classes
         override public bool Herbivore { get; set; } = false;
         override public bool Omnivore { get; set; } = true;
 
+        /// <summary>
+        /// Writes a new distinct string for the Bear class
+        /// </summary>
+        /// <returns>Distinct Bear string</returns>
         public override string Eating()
         {
             Console.WriteLine("*Indistinct Screaming*");
             return "*Indistinct Screaming*";
         }
 
+        /// <summary>
+        /// Writes a new distinct string for the Bear class
+        /// </summary>
+        /// <returns>Distinct Bear string</returns>
         public override string SayHi()
         {
             Console.WriteLine("Roar");
             return "Roar!";
         }
-
-        /*public string LivingAtYellowstone()
-        {
-            if (CartoonNickname == "Yogi")
-            {
-                Console.WriteLine("I\'m smarter than the av-er-age bear!");
-                return "I\'m smarter than the av-er-age bear!";
-            }
-            else
-            {
-                Console.WriteLine("I\'m a dumber than average bear that lives in Yellowstone.");
-                return "I\'m a dumber than average bear that lives in Yellowstone.";
-            }
-        }*/
     }
 }

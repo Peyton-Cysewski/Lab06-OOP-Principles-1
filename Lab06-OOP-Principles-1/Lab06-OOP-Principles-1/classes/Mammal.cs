@@ -11,6 +11,10 @@ namespace Lab06_OOP_Principles_1.classes
         public bool IsTamable { get; set; } = true;
 
     
+        /// <summary>
+        /// Determines the ikeability number based on the HumansLikeus property
+        /// </summary>
+        /// <returns>Likeability number</returns>
         public int LikeableScale()
         {
             if (HumansLikeUs)
@@ -23,6 +27,10 @@ namespace Lab06_OOP_Principles_1.classes
             }
         }
 
+        /// <summary>
+        /// Determines the pettable number based on the IsPettable property
+        /// </summary>
+        /// <returns>Likeability number</returns>
         public int PettableScale()
         {
             if (IsTamable && HumansLikeUs)

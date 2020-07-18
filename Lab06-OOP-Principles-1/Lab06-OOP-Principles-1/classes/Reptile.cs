@@ -14,6 +14,10 @@ namespace Lab06_OOP_Principles_1.classes
 
         abstract public string LayingEggs();
 
+        /// <summary>
+        /// Writes a distinct string to the console to determine it is the EatingHumans function
+        /// </summary>
+        /// <returns>Distinct string</returns>
         public string EatingHumans()
         {
             if (WillEatPeople)

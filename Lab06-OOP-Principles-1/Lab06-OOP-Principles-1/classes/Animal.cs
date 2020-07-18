@@ -12,18 +12,30 @@ namespace Lab06_OOP_Principles_1.classes
         abstract public bool Omnivore { get; set; }
         virtual public int Age { get; set; } = 0;
 
+        /// <summary>
+        /// Writes a distinct string to the console to identify the Eating function of the 
+        /// </summary>
+        /// <returns>String for comparison</returns>
         virtual public string Eating()
         {
             Console.WriteLine("Nom nom nom...");
             return "Nom nom nom...";
         }
 
+        /// <summary>
+        /// Writes a distinct string to the console to identify the Sleeping function of the 
+        /// </summary>
+        /// <returns>String for comparison</returns>
         virtual public string Sleeping()
         {
             Console.WriteLine("Zzzzzzzzz...");
             return "Zzzzzzzzz...";
         }
 
+        /// <summary>
+        /// Writes a distinct string to the console to identify the Living function of the 
+        /// </summary>
+        /// <returns>String for comparison</returns>
         public string Living()
         {
             if (Herbivore)
